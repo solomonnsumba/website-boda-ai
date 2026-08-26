@@ -2,14 +2,13 @@
 
 ## Overview
 
-Static HTML website for Boda AI Factory, an Africa-first artificial intelligence and data science organization based in Kampala, Uganda. The site presents the organization's localized research, applied AI work, team, publications, and contact pathways without inventing research metrics, partners, or testimonials. All content is sourced from the organization's own materials or verified against the team's public Google Scholar profile.
+Static HTML website for Boda AI Factory, an Africa-first artificial intelligence and data science organization based in Kampala, Uganda. The site presents the organization's localized research, applied AI work, team, and contact pathways without inventing research metrics, partners, or testimonials. All content is sourced from the organization's own materials or the team's own personal/professional sites.
 
 ## Project Structure
 
 - `boda-ai-factory.webfiles/index.html` &mdash; homepage.
 - `boda-ai-factory.webfiles/boda-ai-about-us.html` &mdash; mission, vision, and who the organization works with.
 - `boda-ai-factory.webfiles/boda-ai-team.html` &mdash; team profiles.
-- `boda-ai-factory.webfiles/publications.html` &mdash; peer-reviewed publications, verified against Google Scholar.
 - `boda-ai-factory.webfiles/contact-us.html` &mdash; contact details (email, office address) and how to get in touch.
 - `boda-ai-factory.webfiles/our-ai-solutions-*.html` &mdash; the six applied-AI focus areas (agriculture, speech & language, healthcare, infrastructure, finance, business operations), with their original URLs preserved.
 - `boda-ai-factory.webfiles/css/site.css` &mdash; the full design system (color/type tokens, layout, and all page components) and responsive rules.
@@ -36,10 +35,9 @@ The project is a static site and can be deployed to GitHub Pages, Netlify, Cloud
 
 ## Updating Content
 
-- Update homepage copy and the research/publications teaser in `index.html`.
+- Update homepage copy in `index.html`.
 - Update organization, mission, and vision content in `boda-ai-about-us.html`.
 - Update team profiles and headshots in `boda-ai-team.html` and `images/`.
-- Update publications in `publications.html`; verify any new entry's title, authors, venue, and year directly on Google Scholar or the paper's own page before adding it.
 - Update solution pages in the corresponding `our-ai-solutions-*.html` files.
 - Update contact details (email, address) in `contact-us.html` &mdash; the same email/address also appear in the footer of every page and should be kept in sync.
 - When adding or removing a page, update the shared nav/footer markup in every `.html` file, and add or remove the corresponding `<url>` entry in `sitemap.xml`.
