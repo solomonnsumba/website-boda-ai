@@ -1,0 +1,6 @@
+.DS_Store
+
+# Historical Webflow export backups, kept locally but not tracked in git.
+boda-ai-factory.webfiles v1/
+boda-ai-factory.webfiles v1.zip
+boda-ai-factory.webfiles.zip
