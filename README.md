@@ -2,7 +2,7 @@
 
 ## Overview
 
-Static HTML website for Boda AI Factory, an Africa-first artificial intelligence and data science organization based in Kampala, Uganda. The site presents the organization's localized research, applied AI work, team, and contact pathways without inventing research metrics, partners, or testimonials. All content is sourced from the organization's own materials or the team's own personal/professional sites.
+Static HTML website for Boda AI Factory, an artificial intelligence and data science organization based in Kampala, Uganda. The site presents the organization's localized research, applied AI work, team, and contact pathways without inventing research metrics, partners, or testimonials. All content is sourced from the organization's own materials or the team's own personal/professional sites.
 
 ## Project Structure
 
