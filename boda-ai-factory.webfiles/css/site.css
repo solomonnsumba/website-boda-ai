@@ -175,9 +175,9 @@ h2 { max-width: 680px; margin: 10px 0 0; font-size: clamp(2rem, 4vw, 3.5rem); li
 .contact-card { padding: 30px; border: 1px solid var(--line); background: var(--white); }
 .contact-card + .contact-card { margin-top: 18px; }
 .contact-card h2 { margin: 0 0 6px; font-size: 1.1rem; }
-.contact-card p, .contact-card a { color: var(--muted); }
-.contact-card a { color: var(--ink); text-decoration: none; font-weight: 600; }
-.contact-card a:hover { color: var(--green); }
+.contact-card p, .contact-card a:not(.button) { color: var(--muted); }
+.contact-card a:not(.button) { color: var(--ink); text-decoration: none; font-weight: 600; }
+.contact-card a:not(.button):hover { color: var(--green); }
 .contact-note { margin-top: 20px; padding: 18px 20px; border: 1px dashed var(--line); color: var(--muted); font-size: .88rem; }
 .contact-card p { margin: 10px 0 0; }
 .contact-card h2 + p { margin-top: 6px; }
